@@ -104,8 +104,8 @@ h1 { font-size: clamp(34px, 9vw, 64px); margin: 18px 0 16px; }
 
 /* Sections */
 .section { max-width: 1080px; margin: 0 auto; padding: 56px var(--gutter); scroll-margin-top: 56px; }
-.section-tint { max-width: none; background: var(--tint); }
-.section-tint > * { max-width: 1040px; margin-left: auto; margin-right: auto; }
+/* Full-bleed background; padding keeps content on the same 1080px column as other sections. */
+.section-tint { max-width: none; background: var(--tint); padding-left: max(var(--gutter), calc((100% - 1080px) / 2 + var(--gutter))); padding-right: max(var(--gutter), calc((100% - 1080px) / 2 + var(--gutter))); }
 .eyebrow {
   margin: 0 0 8px; font-size: 12px; font-weight: 800;
   letter-spacing: 0.14em; text-transform: uppercase; color: var(--deep-blue);
