@@ -15,13 +15,9 @@ const CONTACTS = {
 
 // Gallery items — drop new photos in assets/gallery/ and add them here.
 const PROJECTS = [
-  { src: "assets/gallery/project-1.jpg", title: "EV Fast-Charging Hub" },
-  { src: "assets/gallery/project-2.jpg", title: "Solar Energy Hub" },
-  { src: "assets/gallery/project-3.jpg", title: "Charging Station & Lounge" },
-  { src: "assets/gallery/project-4.jpg", title: "Battery Energy Storage System" },
-  { src: "assets/gallery/project-5.jpg", title: "EV Service & Maintenance" },
-  { src: "assets/gallery/project-6.jpg", title: "EV Charger Installation" },
-  { src: "assets/gallery/project-7.jpg", title: "Energy Storage Unit" },
+  { src: "assets/gallery/bess-800kva-super-saver.jpg", title: "800kVA BESS — Super Saver Supermarket" },
+  { src: "assets/gallery/echelon-towers.jpg",          title: "Echelon Properties — Twin Towers" },
+  { src: "assets/gallery/echelon-residence.jpg",       title: "Echelon Properties — Residence" },
 ];
 // ──────────────────────────────────────────────────────────────────────────────
 
@@ -86,7 +82,7 @@ const lbCaption = lightbox.querySelector(".lightbox-caption");
 PROJECTS.forEach((p, i) => {
   const btn = document.createElement("button");
   btn.type = "button";
-  btn.className = "tile" + (i === 0 ? " tile-wide" : "");
+  btn.className = "tile";
   btn.innerHTML = `<img loading="${i < 2 ? "eager" : "lazy"}" decoding="async" alt=""><span class="tile-caption"></span>`;
   btn.querySelector("img").src = p.src;
   btn.querySelector("img").alt = p.title;
