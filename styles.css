@@ -158,13 +158,17 @@ h2 { font-size: clamp(28px, 7vw, 40px); margin-bottom: 8px; }
 
 /* Partners */
 .partners { text-align: center; padding-bottom: 64px; }
+.partner-list img { width: auto; max-width: 85%; object-fit: contain; }
+.partner-list .logo-wide { height: 26px; }
+.partner-list .logo-round { height: 68px; }
+.partner-list .logo-stacked { height: 64px; }
 .partners .eyebrow::before { margin-left: auto; margin-right: auto; }
 .partner-list {
   list-style: none; margin: 16px 0 0; padding: 0;
   display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px;
 }
 .partner-list li {
-  display: grid; place-items: center; min-height: 76px; padding: 12px;
+  display: grid; place-items: center; min-height: 104px; padding: 16px;
   border: 1px solid var(--border); border-radius: 16px; background: var(--surface);
   font-family: var(--font-display); font-weight: 600; font-size: 18px; line-height: 1.2;
   color: var(--primary2);
