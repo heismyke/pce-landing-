@@ -18,6 +18,7 @@ const PROJECTS = [
   { src: "assets/gallery/bess-800kva-super-saver.jpg", title: "800kVA BESS — Super Saver Supermarket" },
   { src: "assets/gallery/echelon-towers.jpg",          title: "Echelon Properties — Twin Towers" },
   { src: "assets/gallery/echelon-residence.jpg",       title: "Echelon Properties — Residence" },
+  { src: "assets/gallery/bess-120kva.jpg",             title: "120kVA BESS Project" },
 ];
 // ──────────────────────────────────────────────────────────────────────────────
 
