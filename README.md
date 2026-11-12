@@ -12,5 +12,5 @@ Brand colors, fonts and logo come from `pce-website` and `pce-mobile`.
 ## Hosting (GitHub Pages)
 Settings → Pages → Deploy from branch → `main` / root. Point the QR code at the published URL.
 
-## Deploy (Cloudflare)
-`npx wrangler deploy` publishes to https://pce-landing.mickienorman5.workers.dev
+## Deploy
+`vercel deploy --prod` publishes to https://go.pceenergies.com (Vercel project `pce-landing`). The QR code in `qr/` points there.
