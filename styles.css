@@ -71,14 +71,8 @@ svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width:
     url("assets/img/hero.jpg") center 30% / cover no-repeat;
 }
 .hero-inner { width: 100%; max-width: 1080px; margin: 0 auto; padding: 120px var(--gutter) 48px; }
-.chip {
-  display: inline-block; padding: 6px 12px; border-radius: 999px;
-  font-size: 12px; font-weight: 700; letter-spacing: 0.02em;
-  background: rgba(48, 231, 237, 0.14); color: var(--electric);
-  border: 1px solid rgba(48, 231, 237, 0.3);
-}
 h1, h2, h3 { font-family: var(--font-display); font-weight: 600; line-height: 1.1; margin: 0; letter-spacing: -0.02em; }
-h1 { font-size: clamp(34px, 9vw, 64px); margin: 18px 0 16px; }
+h1 { font-size: clamp(34px, 9vw, 64px); margin: 0 0 16px; }
 .grad {
   background: linear-gradient(135deg, #8FB3F0 0%, var(--electric) 100%);
   -webkit-background-clip: text; background-clip: text; color: transparent;
