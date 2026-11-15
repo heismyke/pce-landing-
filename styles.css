@@ -162,6 +162,13 @@ h2 { font-size: clamp(28px, 7vw, 40px); margin-bottom: 8px; }
 .partner-list .logo-round { height: 68px; }
 .partner-list .logo-stacked { height: 64px; }
 .partner-list .logo-wide-lg { height: 58px; }
+.partner-list .partner-lockup { display: flex; align-items: center; justify-content: center; gap: 10px; }
+.partner-list .logo-mark { height: 34px; max-width: none; }
+.partner-lockup span {
+  font-weight: 800; font-size: 15px; letter-spacing: 0.06em; text-transform: uppercase;
+  text-align: left; line-height: 1.05; color: var(--primary2);
+}
+.partner-lockup em { font-style: normal; color: #D5651B; }
 .partners .eyebrow::before { margin-left: auto; margin-right: auto; }
 .partner-list {
   list-style: none; margin: 16px 0 0; padding: 0;
@@ -210,7 +217,6 @@ h2 { font-size: clamp(28px, 7vw, 40px); margin-bottom: 8px; }
 
 @media (min-width: 1000px) {
   .gallery { grid-template-columns: repeat(4, 1fr); }
-  .partner-list li { flex-basis: calc(20% - 8px); }
 }
 
 @media (prefers-reduced-motion: reduce) {
