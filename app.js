@@ -15,6 +15,7 @@ const CONTACTS = {
 
 // Gallery items — drop new photos in assets/gallery/ and add them here.
 const PROJECTS = [
+  { src: "assets/gallery/sea-mall.jpg",                title: "Sea Mall — Lagos Off Plan Property" },
   { src: "assets/gallery/bess-800kva-super-saver.jpg", title: "800kVA BESS — Super Saver Supermarket" },
   { src: "assets/gallery/echelon-towers.jpg",          title: "Echelon Properties — Twin Towers" },
   { src: "assets/gallery/echelon-residence.jpg",       title: "Echelon Properties — Residence" },
